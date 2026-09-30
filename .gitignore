@@ -1,0 +1,26 @@
+# Node.js
+web/node_modules/
+
+# Local database / data
+web\data.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Environtment / credentials
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Arduino build files
+*.hex
+*.bin
+*.elf
+*.map

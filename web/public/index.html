@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Hasil Pemeriksaan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header">
+        <h2 class = "title">Hasil Pemeriksaan</h2>
+    </div>
+    <div class = "container">
+        <div class = "search-container">
+            <input type="text" id="search-input" placeholder="ID/Waktu...">
+            <button id="search-button">Cari</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>ID</th>
+                    <th>Waktu Pemeriksaan</th>
+                </tr>
+            </thead>
+            <tbody id="data-table-body">
+                <!-- Data rows will be inserted here -->
+            </tbody>
+        </table>
+        <div class = "pagination">
+            Baris:
+            <select id="rows-per-page">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="all">Semua</option>
+            </select>
+
+            <span class="arrow" id="prev-btn">&#128896</span>
+            <span class="arrow" id="next-btn">&#128898</span>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class ="footer">
+        <p>&copy; 2025 KP Tekkom PENS. All rights reserved.</p>
+    </div>
+
+<script src="script.js"></script>
+       
+</body>
+</html>
