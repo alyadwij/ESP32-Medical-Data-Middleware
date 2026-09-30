@@ -42,9 +42,9 @@ Before running the project, configure the required parameters according to the t
 
 ## Interface
 ### Web Interface
-**Main**
+#### Main
 ![Web Interface](assets/dashboard-main.jpg)
-**Details**
+#### Details
 ![Web Interface](assets/dashboard-details.jpg)
 
 The web application provides an interface for accessing data received through the middleware.
